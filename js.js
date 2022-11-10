@@ -34,9 +34,20 @@ function vowelCount(str) {
     console.log(vowelsCount1);
 }
 
-vowelCount("");
+vowelCount("hello");
 
 
-function name(params) {
-    
+function palindrome(str) {
+    let rev= Number(String(str).split('').reverse().join(''));
+     if (str == rev){
+        console.log(" The number is a palindrome.");
+     }
+        
+     else{
+                console.log(" The number is not a palindrome.");
+
+     }
+
 }
+
+palindrome(1112);
